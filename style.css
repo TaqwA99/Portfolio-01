@@ -1,0 +1,454 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+  /*   background-color: #0d314b; */
+    background-color:#022601 ;
+    /* background-color: #031163; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: oxygen, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  h1, h2, h3, h4{
+    margin: 0;
+  }
+  a{
+    color: #1D5902;
+  }
+  a:hover{
+    color:   #F263CC;
+    text-decoration: none;
+  }
+  /* #about div{
+    width: 420px;
+  } */
+  footer{
+    /* align-content: center; */
+    width: 400px ;
+    text-align: center;
+    padding: 4rem 0;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* align-content: center; */
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  #about img{
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+    border-top:1px #FF89B4 solid;
+    border-left:1px #FF89B4 solid;
+    border-radius:10px;
+    padding:1rem;
+  }
+  
+  
+  .button{
+    background-color: #590219;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+  }
+  .button:hover{
+    background-color:  #F263CC;
+    color: white;
+  }
+  nav{
+      font-family: "oxygen mono", monospace;
+      font-size: 15px;
+      padding: 4rem 1rem 3rem 1rem;
+  }
+  /* nav [class*="fa-"] {
+    font-size: 150%;
+    color: #1fbfb8 ;
+}
+nav h1 [class*="fa-"] {
+    font-size: 100%;
+    color: #1fbfb8;
+} */
+  nav h1 a{
+      font-family: Oygen, sans-serif;
+  }
+  nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a{
+    color:white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+  }
+  /* nav li a:hover:last-child{
+    color:white;
+  }
+   */
+  .gradient-line{
+    background: linear-gradient(90deg, rgba(5,113,108,1) 0%, rgba(134,251,251,1) 100%);
+      height: 2px;
+  }
+  /* main about me */
+  .dksection{
+    background-color:#590219;
+  }
+  .box{
+    background-color:#590219;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+  }
+  #about{
+    padding: 2rem 1rem 4rem 1rem;
+    max-width:1200px;
+    margin: 0 auto;
+  }
+  #about p{
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  #about .name{
+    font-family: "oxygen mono", monospace;
+  }
+  #about .actual-name{
+      font-size: 4rem;
+      font-family: Oxygen, sans-serif;
+      color:  #F263CC;
+      display: block;
+      font-weight: 200px;
+  }
+  #about h2{
+    font-size: 4rem;
+  }
+  article ul{
+    list-style-type: none;
+    margin: 0;
+    background-color:#022601;
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: white;
+  }
+  #hobbies{
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  #hobbies h4{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  #hobbies img{
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+    border-top:1px #FF89B4 solid;
+    border-left:1px #FF89B4 solid;
+    border-radius:10px;
+    padding:1rem;
+  }
+
+.lemon-green{
+  background-color: #1D5902;
+}
+  #contact{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+ }
+ 
+ #contact .message_me{
+     background-color: #590219;
+     border: none;
+     border-radius: 5px;
+     padding: 0.5rem;
+ }
+ #contact .message_me:hover{
+     background-color: #F263CC;
+ }
+ 
+ .message_me a {
+     color: white;
+     text-decoration: none;
+     font-size: 1rem;
+     font-family: "oxygen", monospace;
+     font-weight: normal;
+     margin-top: 3rem;
+ }
+
+ /* Registration */
+
+
+.container{
+  font-family: "oxygen", monospace;
+   max-width: 1200px;
+   width: 100%;
+   padding: 40px;
+   margin: 0 auto;
+   border-left: 1px #FF89B4 solid;
+ border-top: 1px #FF89B4 solid;
+ border-radius: 10px;
+ line-height: 1.8;
+ }
+
+.container h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* #container hr{
+  border: 1px solid #FF89B4;
+  margin-bottom: 10px;
+} */
+.container label{
+  font-size: 20px;
+  padding-right: 50px;
+  font-weight: bold;
+
+}
+
+/* input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+} */
+.container input{
+  font-family: "oxygen", sans-serif;
+  /* box-sizing: border-box; */
+  width: 100%;
+  min-width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+}
+.container select {
+  font-family: "oxygen", sans-serif;
+  width: 100%;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+}
+.container button {
+  margin-top: 20px;
+  background-color: #590219;
+  color: white;
+  font-family: "oxygen", sans-serif;
+  font-weight: bold;
+  width: 50%;
+  font-size: 16px;
+  padding: 10px 4px;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+.container button:hover{
+  background-color: #F263CC;
+}
+
+
+ .container textarea{
+  font-family: "oxygen", sans-serif;
+  width: 400px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+ } 
+
+
+ /* login----------------------------------------------------------------login */
+ .login-container{
+  font-family: "oxygen", monospace;
+   max-width: 1200px;
+   width: 100%;
+   padding: 40px;
+   margin: 0 auto;
+   margin-bottom: 2rem;
+   border-left: 1px #FF89B4 solid;
+ border-top: 1px #FF89B4 solid;
+ border-radius: 10px;
+ line-height: 1.8;
+ }
+.login-container p{
+  margin: 2px 0 0 0;
+  font-size: 25px;
+}
+.login-container p:last-child{
+  font-size: 12px;
+}
+.login-container h2{
+  font-size: 30px;
+  text-align: center;
+}
+.login-container input[type=email],input[type=password] {
+  font-family: "oxygen", sans-serif;
+  /* box-sizing: border-box; */
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+}
+.login-container button{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #590219;
+  color: white;
+  font-family: "oxygen", sans-serif;
+  font-weight: bold;
+  width: 50%;
+  font-size: 16px;
+  padding: 10px 4px;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+.login-container button:hover{
+  background-color: #F263CC;
+}
+.login-container span{
+  font-size:18px ;
+}
+
+
+
+/* .login-container hr{
+  border: 1px solid #FF89B4;
+  margin-bottom: 10px;
+}  */
+  @media (min-width: 850px){
+      nav {
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+      
+      nav li:first-child{
+          flex-basis: auto;
+          text-align: left;
+          margin-right: auto;
+      }
+
+  }
+
+@media (min-width: 675px){
+  .container{
+font-family: "oxygen", monospace;
+width: 50%;
+justify-content: center;
+ margin-bottom: 4rem;
+ padding: 2rem 2rem 2rem 2rem;
+ border-left: 1px #FF89B4 solid;
+ border-top: 1px #FF89B4 solid;
+ border-radius: 10px;
+ line-height: 1.8;
+}
+.login-container{
+  font-family: "oxygen", monospace;
+  width: 50%;
+  justify-content: center;
+   margin-bottom: 4rem;
+   padding: 2rem 2rem 2rem 2rem;
+   border-left: 1px #FF89B4 solid;
+   border-top: 1px #FF89B4 solid;
+   border-radius: 10px;
+   line-height: 1.8;
+  }
+}
+@media(min-width: 885px){
+  #about{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  #about img{
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+#about .text{
+  order: 2;
+  text-align: right;
+  grid-column: 5/11;
+  grid-row: 1/2;
+}
+/* article{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+}
+#hobbies{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#hobbies img{
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+article ul h4{
+  order: 3;
+  text-align: right;
+  grid-column: 5/11;
+  grid-row: 1/2;
+}   */
+
+}
+@media(min-width: 800px){
+  #hobbies{
+    margin: 0 auto;
+    max-width: 1200px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
